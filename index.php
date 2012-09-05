@@ -21,15 +21,23 @@
       color: #a89c8d;
     }
     #m { font-size: 80px; }
+    img {
+      position: fixed;
+      left: 50%;
+      margin-left: -64px;
+      top: 75%;
+    }
   </style>
 </head>
 <body>
+  <img src="gs.png"
   <div id="m">Press a key, any key.</div>
   <div id="kc"></div>
   <script>
     document.onkeydown = function(e){
       document.getElementById('m').innerHTML = '';
       document.getElementById('kc').innerHTML = e.keyCode || e.which;
+      return false;
     };
     GoSquared = {acct: "GSN-550314-B"};
   </script>
