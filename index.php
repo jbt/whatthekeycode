@@ -2,6 +2,9 @@
 <html>
 <head>
   <title>What The Key Code?</title>
+  <meta name="description" content="JavaScript keyCode finder" />
+  <meta name="keywords" content="JavaScript,keyCode,key,code" />
+
   <style type="text/css">
     body {
       font-weight: 100;
