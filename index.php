@@ -31,6 +31,8 @@
       document.getElementById('m').innerHTML = '';
       document.getElementById('kc').innerHTML = e.keyCode || e.which;
     };
+    GoSquared = {acct: "GSN-550314-B"};
   </script>
+  <script src="//d1l6p2sc9645hc.cloudfront.net/tracker.js" async></script>
 </body>
 </html>
