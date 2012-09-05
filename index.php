@@ -34,7 +34,7 @@
   <div id="m">Press a key, any key.</div>
   <div id="kc"></div>
   <script>
-    document.onkeydown = function(e){
+    document.onkeydown = document.body.onkeydown = function(e){
       document.getElementById('m').innerHTML = '';
       document.getElementById('kc').innerHTML = e.keyCode || e.which;
       return false;
