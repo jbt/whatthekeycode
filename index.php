@@ -21,7 +21,7 @@
       color: #a89c8d;
     }
     #m { font-size: 80px; }
-    img {
+    a {
       position: fixed;
       left: 50%;
       margin-left: -64px;
@@ -30,7 +30,7 @@
   </style>
 </head>
 <body>
-  <img src="gs.png"
+  <a href="//www.gosquared.com" title="Made in 5 minutes by GoSquared"><img src="gs.png" /></a>
   <div id="m">Press a key, any key.</div>
   <div id="kc"></div>
   <script>
