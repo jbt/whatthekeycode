@@ -25,7 +25,7 @@
       position: fixed;
       left: 50%;
       margin-left: -64px;
-      top: 75%;
+      bottom: 50px;
     }
   </style>
 </head>
