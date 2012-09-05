@@ -35,6 +35,7 @@
   <div id="kc"></div>
   <script>
     document.onkeydown = document.body.onkeydown = function(e){
+      e = e || window.event;
       document.getElementById('m').innerHTML = '';
       document.getElementById('kc').innerHTML = e.keyCode || e.which;
       return false;
